@@ -23,6 +23,8 @@ class _MyAppState extends State<MyApp> {
     FlutterYoutube.playYoutubeVideoByUrl(
       apiKey: "AIzaSyAFl51RFg-ATnFHoh4uz8cnQu0BAiGyBh8",
       videoUrl: "https://www.youtube.com/watch?v=9aLrQH_fDvQ",
+      autoPlay:true,
+        fullScreen:true
     );
   }
 
