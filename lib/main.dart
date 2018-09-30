@@ -79,48 +79,9 @@ class _MyAppState extends State<MyApp> {
             children: <Widget>[
               new Padding(
                 padding: const EdgeInsets.all(10.0),
-                child: new TextField (
-                  controller: textEditingControllerUrl,
-                  decoration: new InputDecoration(
-                      labelText: "Enter Youtube URL"
-                  ),
-                ),
-              ),
-              new Padding(
-                padding: const EdgeInsets.all(10.0),
-                child: new RaisedButton(
-                    child: new Text("Play Video By Url"),
-                    onPressed: playYoutubeVideoEdit
-                ),
-              ),
-              new Padding(
-                padding: const EdgeInsets.all(10.0),
                 child: new RaisedButton(
                     child: new Text("Play Default Video"),
                     onPressed: playYoutubeVideo
-                ),
-              ),
-              new Padding(
-                padding: const EdgeInsets.all(10.0),
-                child: new TextField (
-                  controller: textEditingControllerId,
-                  decoration: new InputDecoration(
-                      labelText: "Youtube Video Id (fhWaJi1Hsfo)"
-                  ),
-                ),
-              ),
-              new Padding(
-                padding: const EdgeInsets.all(10.0),
-                child: new RaisedButton(
-                    child: new Text("Play Video By Id"),
-                    onPressed: playYoutubeVideoIdEdit
-                ),
-              ),
-              new Padding(
-                padding: const EdgeInsets.all(10.0),
-                child: new RaisedButton(
-                    child: new Text("Auto Play Video By Id"),
-                    onPressed: playYoutubeVideoIdEditAuto
                 ),
               ),
             ],
